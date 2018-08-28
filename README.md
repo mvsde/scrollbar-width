@@ -14,8 +14,8 @@ npm install @mvsde/scrollbar-width
 import scrollbarWidth from '@mvsde/scrollbar-width'
 
 // Get the width of the scrollbar
-const sbWidth = scrollbarWidth()
+const width = scrollbarWidth()
 
 // Check if page has overflow and then get scrollbar width
-const sbWitdthWithCheck = scrollbarWidth({ testOverflow: true })
+const widthWithOverflowTest = scrollbarWidth({ testOverflow: true })
 ```
